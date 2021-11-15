@@ -1,0 +1,147 @@
+2021-11-15 21:34:03.809  INFO 12920 --- [restartedMain] c.b.a.SpringAddressBookApplication       : Starting SpringAddressBookApplication using Java 15.0.2 on SHUBHAM-SUNIL-BANDAGALE with PID 12920 (F:\Spring_Learning\Day5_AddressBook_Spring\AddressBooNew\target\classes started by ADMIN in F:\Spring_Learning\Day5_AddressBook_Spring\AddressBooNew)
+2021-11-15 21:34:03.811 DEBUG 12920 --- [restartedMain] c.b.a.SpringAddressBookApplication       : Running with Spring Boot v2.5.6, Spring v5.3.12
+2021-11-15 21:34:03.812  INFO 12920 --- [restartedMain] c.b.a.SpringAddressBookApplication       : The following profiles are active: dev
+2021-11-15 21:34:15.212  WARN 12920 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'addressBookController': Unsatisfied dependency expressed through field 'addressbookservice'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.bridgelabz.addressbook.services.IAddressBookServices' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2021-11-15 21:34:15.342 ERROR 12920 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field addressbookservice in com.bridgelabz.addressbook.controller.AddressBookController required a bean of type 'com.bridgelabz.addressbook.services.IAddressBookServices' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.bridgelabz.addressbook.services.IAddressBookServices' in your configuration.
+
+2021-11-15 21:37:29.443  INFO 11248 --- [restartedMain] c.b.a.SpringAddressBookApplication       : Starting SpringAddressBookApplication using Java 15.0.2 on SHUBHAM-SUNIL-BANDAGALE with PID 11248 (F:\Spring_Learning\Day5_AddressBook_Spring\AddressBooNew\target\classes started by ADMIN in F:\Spring_Learning\Day5_AddressBook_Spring\AddressBooNew)
+2021-11-15 21:37:29.447 DEBUG 11248 --- [restartedMain] c.b.a.SpringAddressBookApplication       : Running with Spring Boot v2.5.6, Spring v5.3.12
+2021-11-15 21:37:29.447  INFO 11248 --- [restartedMain] c.b.a.SpringAddressBookApplication       : The following profiles are active: dev
+2021-11-15 21:37:32.376  WARN 11248 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'addressBookController': Unsatisfied dependency expressed through field 'addressbookservice'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.bridgelabz.addressbook.services.IAddressBookServices' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2021-11-15 21:37:32.421 ERROR 11248 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field addressbookservice in com.bridgelabz.addressbook.controller.AddressBookController required a bean of type 'com.bridgelabz.addressbook.services.IAddressBookServices' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.bridgelabz.addressbook.services.IAddressBookServices' in your configuration.
+
+2021-11-15 21:39:19.842  INFO 11204 --- [restartedMain] c.b.a.SpringAddressBookApplication       : Starting SpringAddressBookApplication using Java 15.0.2 on SHUBHAM-SUNIL-BANDAGALE with PID 11204 (F:\Spring_Learning\Day5_AddressBook_Spring\AddressBooNew\target\classes started by ADMIN in F:\Spring_Learning\Day5_AddressBook_Spring\AddressBooNew)
+2021-11-15 21:39:19.844 DEBUG 11204 --- [restartedMain] c.b.a.SpringAddressBookApplication       : Running with Spring Boot v2.5.6, Spring v5.3.12
+2021-11-15 21:39:19.845  INFO 11204 --- [restartedMain] c.b.a.SpringAddressBookApplication       : The following profiles are active: dev
+2021-11-15 21:39:23.227  WARN 11204 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'addressBookController': Unsatisfied dependency expressed through field 'addressbookservice'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.bridgelabz.addressbook.services.IAddressBookServices' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2021-11-15 21:39:23.272 ERROR 11204 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field addressbookservice in com.bridgelabz.addressbook.controller.AddressBookController required a bean of type 'com.bridgelabz.addressbook.services.IAddressBookServices' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.bridgelabz.addressbook.services.IAddressBookServices' in your configuration.
+
+2021-11-15 21:41:58.121  INFO 11952 --- [restartedMain] c.b.a.SpringAddressBookApplication       : Starting SpringAddressBookApplication using Java 15.0.2 on SHUBHAM-SUNIL-BANDAGALE with PID 11952 (F:\Spring_Learning\Day5_AddressBook_Spring\AddressBooNew\target\classes started by ADMIN in F:\Spring_Learning\Day5_AddressBook_Spring\AddressBooNew)
+2021-11-15 21:41:58.122 DEBUG 11952 --- [restartedMain] c.b.a.SpringAddressBookApplication       : Running with Spring Boot v2.5.6, Spring v5.3.12
+2021-11-15 21:41:58.123  INFO 11952 --- [restartedMain] c.b.a.SpringAddressBookApplication       : The following profiles are active: dev
+2021-11-15 21:42:00.873  WARN 11952 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'addressBookController': Unsatisfied dependency expressed through field 'addressbookservice'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.bridgelabz.addressbook.services.IAddressBookServices' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2021-11-15 21:42:00.920 ERROR 11952 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field addressbookservice in com.bridgelabz.addressbook.controller.AddressBookController required a bean of type 'com.bridgelabz.addressbook.services.IAddressBookServices' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.bridgelabz.addressbook.services.IAddressBookServices' in your configuration.
+
+2021-11-15 21:44:55.299  INFO 3656 --- [restartedMain] c.b.a.SpringAddressBookApplication       : Starting SpringAddressBookApplication using Java 15.0.2 on SHUBHAM-SUNIL-BANDAGALE with PID 3656 (F:\Spring_Learning\Day5_AddressBook_Spring\AddressBooNew\target\classes started by ADMIN in F:\Spring_Learning\Day5_AddressBook_Spring\AddressBooNew)
+2021-11-15 21:44:55.301 DEBUG 3656 --- [restartedMain] c.b.a.SpringAddressBookApplication       : Running with Spring Boot v2.5.6, Spring v5.3.12
+2021-11-15 21:44:55.301  INFO 3656 --- [restartedMain] c.b.a.SpringAddressBookApplication       : The following profiles are active: dev
+2021-11-15 21:44:59.410  WARN 3656 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-11-15 21:44:59.749  WARN 3656 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-11-15 21:44:59.954  INFO 3656 --- [restartedMain] c.b.a.SpringAddressBookApplication       : Started SpringAddressBookApplication in 5.386 seconds (JVM running for 6.892)
+2021-11-15 21:44:59.960  INFO 3656 --- [restartedMain] c.b.a.SpringAddressBookApplication       : EMPLOYEE PAYROLL STARTED !!! in DEV ENVIRONMENT
+2021-11-15 21:44:59.961  INFO 3656 --- [restartedMain] c.b.a.SpringAddressBookApplication       : EMPLOYEE_PAYROLL_DATABASE USER IS root 
+2021-11-15 21:51:46.965  INFO 6664 --- [restartedMain] c.b.a.SpringAddressBookApplication       : Starting SpringAddressBookApplication using Java 15.0.2 on SHUBHAM-SUNIL-BANDAGALE with PID 6664 (F:\Spring_Learning\Day5_AddressBook_Spring\AddressBooNew\target\classes started by ADMIN in F:\Spring_Learning\Day5_AddressBook_Spring\AddressBooNew)
+2021-11-15 21:51:46.968 DEBUG 6664 --- [restartedMain] c.b.a.SpringAddressBookApplication       : Running with Spring Boot v2.5.6, Spring v5.3.12
+2021-11-15 21:51:46.968  INFO 6664 --- [restartedMain] c.b.a.SpringAddressBookApplication       : The following profiles are active: dev
+2021-11-15 21:51:49.835  WARN 6664 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'addressBookController': Unsatisfied dependency expressed through field 'addressbookservice'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.bridgelabz.addressbook.services.IAddressBookServices' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Qualifier("IAddressBookServices"), @org.springframework.beans.factory.annotation.Autowired(required=true)}
+2021-11-15 21:51:49.915 ERROR 6664 --- [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'addressBookController': Unsatisfied dependency expressed through field 'addressbookservice'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.bridgelabz.addressbook.services.IAddressBookServices' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Qualifier("IAddressBookServices"), @org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:659) ~[spring-beans-5.3.12.jar:5.3.12]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:639) ~[spring-beans-5.3.12.jar:5.3.12]
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119) ~[spring-beans-5.3.12.jar:5.3.12]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399) ~[spring-beans-5.3.12.jar:5.3.12]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1431) ~[spring-beans-5.3.12.jar:5.3.12]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619) ~[spring-beans-5.3.12.jar:5.3.12]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.12.jar:5.3.12]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.12.jar:5.3.12]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.12.jar:5.3.12]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.12.jar:5.3.12]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.12.jar:5.3.12]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:944) ~[spring-beans-5.3.12.jar:5.3.12]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918) ~[spring-context-5.3.12.jar:5.3.12]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583) ~[spring-context-5.3.12.jar:5.3.12]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145) ~[spring-boot-2.5.6.jar:2.5.6]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754) ~[spring-boot-2.5.6.jar:2.5.6]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:434) ~[spring-boot-2.5.6.jar:2.5.6]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:338) ~[spring-boot-2.5.6.jar:2.5.6]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343) ~[spring-boot-2.5.6.jar:2.5.6]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1332) ~[spring-boot-2.5.6.jar:2.5.6]
+	at com.bridgelabz.addressbook.SpringAddressBookApplication.main(SpringAddressBookApplication.java:14) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) ~[spring-boot-devtools-2.5.6.jar:2.5.6]
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.bridgelabz.addressbook.services.IAddressBookServices' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Qualifier("IAddressBookServices"), @org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.raiseNoMatchingBeanFound(DefaultListableBeanFactory.java:1790) ~[spring-beans-5.3.12.jar:5.3.12]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1346) ~[spring-beans-5.3.12.jar:5.3.12]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1300) ~[spring-beans-5.3.12.jar:5.3.12]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:656) ~[spring-beans-5.3.12.jar:5.3.12]
+	... 25 common frames omitted
+
+2021-11-15 21:52:25.574  INFO 11160 --- [restartedMain] c.b.a.SpringAddressBookApplication       : Starting SpringAddressBookApplication using Java 15.0.2 on SHUBHAM-SUNIL-BANDAGALE with PID 11160 (F:\Spring_Learning\Day5_AddressBook_Spring\AddressBooNew\target\classes started by ADMIN in F:\Spring_Learning\Day5_AddressBook_Spring\AddressBooNew)
+2021-11-15 21:52:25.576 DEBUG 11160 --- [restartedMain] c.b.a.SpringAddressBookApplication       : Running with Spring Boot v2.5.6, Spring v5.3.12
+2021-11-15 21:52:25.577  INFO 11160 --- [restartedMain] c.b.a.SpringAddressBookApplication       : The following profiles are active: dev
+2021-11-15 21:52:28.729  WARN 11160 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-11-15 21:52:28.959  WARN 11160 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-11-15 21:52:29.094  INFO 11160 --- [restartedMain] c.b.a.SpringAddressBookApplication       : Started SpringAddressBookApplication in 4.229 seconds (JVM running for 5.364)
+2021-11-15 21:52:29.098  INFO 11160 --- [restartedMain] c.b.a.SpringAddressBookApplication       : EMPLOYEE PAYROLL STARTED !!! in DEV ENVIRONMENT
+2021-11-15 21:52:29.100  INFO 11160 --- [restartedMain] c.b.a.SpringAddressBookApplication       : EMPLOYEE_PAYROLL_DATABASE USER IS root 
+2021-11-15 21:55:50.773  WARN 11160 --- [http-nio-8080-exec-2] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<com.bridgelabz.addressbook.dto.ResponseDTO> com.bridgelabz.addressbook.controller.AddressBookController.addContactData(com.bridgelabz.addressbook.dto.ContactDTO): [Field error in object 'contactDTO' on field 'zip': rejected value [97]; codes [Pattern.contactDTO.zip,Pattern.zip,Pattern]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [contactDTO.zip,zip]; arguments []; default message [zip],[Ljavax.validation.constraints.Pattern$Flag;@3ebf2228,^[0-9]{3}\s{0,1}[0-9]{3}$]; default message [Invalid Zip]] ]
+2021-11-15 21:56:03.406 DEBUG 11160 --- [http-nio-8080-exec-4] c.b.a.controller.AddressBookController   : Address Book DTO: ContactDTO(firstName=Shubham, lastName=Band, address=Malad, city=Mumbai, state=MH, zip=400097, phone=9004608395)
+2021-11-15 21:56:31.611 DEBUG 11160 --- [http-nio-8080-exec-5] c.b.a.controller.AddressBookController   : Address Book DTO: ContactDTO(firstName=Omkar, lastName=Patel, address=Malad, city=Mumbai, state=MH, zip=400097, phone=9004608395)
